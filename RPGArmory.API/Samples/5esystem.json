@@ -1,0 +1,26 @@
+{
+  "name": "5e", 
+  "abilities": [
+    "strength",
+    "dexterity",
+    "constitution",
+    "wisdom",
+    "intelligence",
+    "charisma"
+  ],
+  "properties": [
+    {
+      "name": "race",
+      "options": [
+        {
+          "name": "dwarf",
+          "modifiers": [
+            {"+": [{"var": "abilities:constitution" }, 2]}
+          ] 
+        },
+        "dwarf"
+      ] },
+    "class",
+    "background"
+  ] 
+}
